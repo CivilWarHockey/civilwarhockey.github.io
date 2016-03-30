@@ -133,7 +133,7 @@ li {} ul {
 .schedule {
     float: left;
     position: relative;
-    
+    left: -50%;
     width: 50%;
     height: 100%;
     text-align: center;

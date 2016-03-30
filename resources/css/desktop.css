@@ -207,7 +207,7 @@ li {} ul {
     width: 70%;
     position: inline;
     background-color: white;
-    opacity:0.5;
+    opacity:1.0;
     color: black;
     font-size: 18px;
     padding-left: 1%;
@@ -217,7 +217,7 @@ li {} ul {
     width: 70%;
     position: inline;
     background-color: black;
-    opacity:0.5;
+    opacity:1.0;
     color: white;
     font-size: 25px;
     padding-left: 1%;

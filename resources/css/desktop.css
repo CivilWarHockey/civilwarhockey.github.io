@@ -124,17 +124,10 @@ li {} ul {
     font-size: 15px;
 }
 
-.schedulewrap {
-    float: right;
-    position: relative;
-    width: 70%;
-}
-
 .schedule {
-    float: left;
     position: relative;
     left: -15%;
-    width: 60%;
+    width: 50%;
     height: 100%;
     text-align: left;
     background-color: 666666;

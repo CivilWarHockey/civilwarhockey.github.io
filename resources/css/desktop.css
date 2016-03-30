@@ -208,25 +208,33 @@ li {} ul {
 }
 
 .home {
-    width: 15%;
+    width: 10%;
+    position: inline;
     background-color: white;
     opacity:0.5;
+    color: black;
 }
 
 .away {
-    width: 15%;
+    width: 10%;
+    position: inline;
     background-color: white;
     opacity:0.5;
+    color: black;
 }
 
 .homeresult {
     width: 5%;
+    position: inline;
     background-color: white;
     opacity:0.5;
+    color: black;
 }
 
 .awayresult {
     width: 5%;
+    position: inline;
     background-color: white;
     opacity:0.5;
+    color: black;
 }

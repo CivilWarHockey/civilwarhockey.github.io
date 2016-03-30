@@ -144,12 +144,14 @@ li {} ul {
     background-color: gold;
     color: 000000;
     font-size: 13;
+    opacity: 1;
 }
 
 .playerDiv {
     background-color: dddddd;
     color: black;
     font-size: 13;
+    opacity: 1;
 }
 
 #clockDiv {

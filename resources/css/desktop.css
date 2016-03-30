@@ -215,26 +215,9 @@ li {} ul {
     color: black;
 }
 
-.away {
+.time {
     width: 50%;
     position: inline;
-    background-color: white;
+    background-color: black;
     opacity:0.5;
-    color: black;
-}
-
-.homeresult {
-    width: 50%;
-    position: inline;
-    background-color: white;
-    opacity:0.5;
-    color: black;
-}
-
-.awayresult {
-    width: 50%;
-    position: inline;
-    background-color: white;
-    opacity:0.5;
-    color: black;
-}
+    color: white;

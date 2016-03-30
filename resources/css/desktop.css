@@ -85,8 +85,7 @@ li {} ul {
     padding: 2px;
     margin: 1px;
     font-weight: bold;
-    background-color: 555555;
-    opacity: 0.5;
+    background-color: rgba(85,85,85,0.6);
 }
 
 .scoreboard {

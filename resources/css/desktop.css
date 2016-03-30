@@ -122,7 +122,18 @@ li {} ul {
     padding-left: 2.5%;
     padding-right: 2.5%;
     font-size: 15px;
-    opacity: 80%;
+}
+
+.schedule {
+    width: 50%;
+    height: 100%;
+    float: center;
+    background-color: 666666;
+    opacity: 0.7;
+    color: white;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-size: 15px;
 }
 
 .topPlayerDiv {

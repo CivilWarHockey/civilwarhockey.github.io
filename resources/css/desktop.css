@@ -1,7 +1,4 @@
-html {
-    text-align: center;
-}
-a {
+.navButton {
     list-style-type: none;
     display: inline-block;
     margin: 0;
@@ -20,9 +17,8 @@ a {
     padding-left: 28px;
 }
 
-a:hover {
+.navButton:hover {
     background-color: 555555;
-    border-bottom: 3px solid white;
 }
 
 p {
@@ -31,19 +27,17 @@ p {
     color: white;
 }
 
+h3 {
+    font-family: arial;
+}
+
 nav {
     display: inline-block;
-    width: 70%;
+    width: 100%;
     background-color: 375099;
-    background-image: url('../img/Logo5.png');
-    background-size: 350px;
-
     background-position: bottom;
     background-position: left;
     background-repeat: no-repeat;
-
-    padding-right: 3%;
-    padding-left: 27%;
 }
 
 img {

@@ -208,7 +208,7 @@ li {} ul {
 }
 
 .home {
-    width: 10%;
+    width: 50%;
     position: inline;
     background-color: white;
     opacity:0.5;
@@ -216,7 +216,7 @@ li {} ul {
 }
 
 .away {
-    width: 10%;
+    width: 50%;
     position: inline;
     background-color: white;
     opacity:0.5;
@@ -224,7 +224,7 @@ li {} ul {
 }
 
 .homeresult {
-    width: 5%;
+    width: 50%;
     position: inline;
     background-color: white;
     opacity:0.5;
@@ -232,7 +232,7 @@ li {} ul {
 }
 
 .awayresult {
-    width: 5%;
+    width: 50%;
     position: inline;
     background-color: white;
     opacity:0.5;

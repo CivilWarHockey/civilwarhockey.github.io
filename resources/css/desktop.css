@@ -75,7 +75,10 @@ body {
     padding: 0;
 }
 
-li {} ul {
+li {
+    font-size: 16;
+} 
+ul {
     font-size: 18;
 }
 

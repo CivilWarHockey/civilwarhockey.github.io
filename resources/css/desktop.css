@@ -13,6 +13,7 @@
     border: 1.3px;
     border-style: solid;
     border-color: white;
+    bottom: 10%;
 }
 
 .navButton:hover {
@@ -23,7 +24,6 @@
   float: right;
   width: 60%;
   position: relative;
-  bottom: 10%;
 }
 
 .homeButton {

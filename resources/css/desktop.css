@@ -127,7 +127,7 @@ li {} ul {
 .schedule {
     width: 50%;
     height: 100%;
-    float: center;
+    text-align: center;
     background-color: 666666;
     opacity: 0.7;
     color: white;

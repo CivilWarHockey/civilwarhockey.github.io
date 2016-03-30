@@ -125,9 +125,9 @@ li {} ul {
 }
 
 .schedulewrap {
-    float: left;
+    float: right;
     position: relative;
-    left: 75%;
+    left: 50%;
 }
 
 .schedule {

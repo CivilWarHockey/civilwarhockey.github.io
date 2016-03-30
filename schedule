@@ -1,4 +1,12 @@
 <html>
+
+<title> Schedule </title>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./resources/css/desktop.css">
+    </head>
+
+
+
 <body>
 
 hello

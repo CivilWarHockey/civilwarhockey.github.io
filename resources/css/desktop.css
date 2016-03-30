@@ -126,7 +126,7 @@ li {} ul {
 
 .schedule {
     position: relative;
-    left: -15%;
+    left: 15%;
     width: 50%;
     height: 100%;
     text-align: left;

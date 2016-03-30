@@ -206,7 +206,7 @@ li {} ul {
     background-color: white;
     opacity:0.5;
     color: black;
-    font-size: "18px";
+    font-size: 18px;
     padding-left: 1%;
 }
 
@@ -216,5 +216,5 @@ li {} ul {
     background-color: black;
     opacity:0.5;
     color: white;
-    font-size: "22px";
+    font-size: 25px;
     padding-left: 1%;

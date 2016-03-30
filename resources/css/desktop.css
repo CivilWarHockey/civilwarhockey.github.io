@@ -208,8 +208,8 @@ li {} ul {
 .time {
     width: 70%;
     position: inline;
-    background-color: black;
+    background-color: 50565c;
     opacity:1.0;
-    color: white;
+    color: dddddd;
     font-size: 25px;
     padding-left: 1%;

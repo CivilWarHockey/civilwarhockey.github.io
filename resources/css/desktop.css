@@ -53,6 +53,7 @@ h3 {
 }
 
 nav {
+    position: relative;
     width: 80%;
     background-color: 50565c;
     left: 10%;
@@ -115,6 +116,7 @@ li {} ul {
 }
 
 .right {
+    position: relative;
     width: 20%;
     height: 100%;
     float: right;

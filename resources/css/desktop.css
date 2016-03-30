@@ -202,7 +202,7 @@ li {} ul {
 }
 
 .home {
-    width: 50%;
+    width: 60%;
     position: inline;
     background-color: white;
     opacity:0.5;
@@ -210,7 +210,7 @@ li {} ul {
 }
 
 .time {
-    width: 50%;
+    width: 60%;
     position: inline;
     background-color: black;
     opacity:0.5;

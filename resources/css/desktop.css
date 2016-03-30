@@ -55,7 +55,7 @@ h3 {
 nav {
     width: 80%;
     background-color: 50565c;
-    right: 10%;
+    left: 10%;
 }
 375099
 
@@ -110,6 +110,7 @@ li {} ul {
     font-size: 18;
     opacity: 20%;
     overflow: hidden;
+    left: 10%;
 }
 
 .right {

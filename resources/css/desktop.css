@@ -22,13 +22,13 @@
 
 .navButtons {
   float: left;
-  width: 70%;
+  width: 80%;
   position: absolute;
 }
 
 .homeButton {
   float: left;
-  width: 30%;
+  width: 20%;
   position: absolute;
   top: 0;
   left: 0;

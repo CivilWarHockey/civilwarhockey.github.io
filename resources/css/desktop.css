@@ -20,14 +20,14 @@
 }
 
 .navButtons {
-  float: left;
-  width: 50%;
+  float: right;
+  width: 60%;
   position: relative;
 }
 
 .homeButton {
   float: left;
-  width: 50%;
+  width: 40%;
   position: relative;
   top: 0;
   left: 0;

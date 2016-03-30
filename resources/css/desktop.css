@@ -132,8 +132,7 @@ li {} ul {
     width: 50%;
     height: 100%;
     text-align: left;
-    background-color: 366092;
-    opacity: 0.8;
+    background-color: rgba(54,96,146,.6);
     color: white;
     font-size: 30px;
     padding-left: 15%;

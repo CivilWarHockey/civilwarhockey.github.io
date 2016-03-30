@@ -206,3 +206,27 @@ li {} ul {
     font-size: 18;
     width: 35%;
 }
+
+.home {
+    width: 15%;
+    background-color: white;
+    opacity:0.5;
+}
+
+.away {
+    width: 15%;
+    background-color: white;
+    opacity:0.5;
+}
+
+.homeresult {
+    width: 5%;
+    background-color: white;
+    opacity:0.5;
+}
+
+.awayresult {
+    width: 5%;
+    background-color: white;
+    opacity:0.5;
+}

@@ -209,6 +209,7 @@ li {} ul {
     opacity:0.5;
     color: black;
     font-size: 22;
+    padding-left: 1%;
 }
 
 .time {
@@ -218,3 +219,4 @@ li {} ul {
     opacity:0.5;
     color: white;
     font-size: "22px";
+    padding-left: 1%;

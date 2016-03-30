@@ -65,7 +65,7 @@ img {
 body {
     background opacity: 0.5;
     background: url('../img/Background2.png');
-    background-color: 50565c;
+    background-color: dddddd;
     background-repeat: no-repeat;
     background-position: left;
     background-attachment: fixed;
@@ -102,7 +102,7 @@ li {} ul {
     width: 60%;
     height: 100%;
     opacity: 0.75;
-    background-color: dddddd;
+    background-color: 555555;
     float: left;
     color: white;
     padding-left: 5%;

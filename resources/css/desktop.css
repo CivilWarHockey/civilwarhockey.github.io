@@ -118,6 +118,7 @@ li {} ul {
     width: 20%;
     height: 100%;
     float: right;
+    right: 10%;
     background-color: rgba(54,96,146,.6);
     color: white;
     padding-left: 2.5%;

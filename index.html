@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="./resources/css/desktop.css">
     </head>
     <body>
+        
         <!--HEADER BAR CONTENT-->
         <nav>
             <div class="navDiv">
@@ -11,16 +12,29 @@
                     <a href="index.html"><img src="resources/img/Logo5.png" width=250px height=95px></a>
                 </div>
                 <div class="navButtons">
-                    <a class="navButton" href="/stats/">STATS</a>
+                    <script type="text/javascript">
+                    <!--
+                        function toggle_visibility(id) {
+                           var e = document.getElementById(id);
+                           if(e.style.display == 'block')
+                              e.style.display = 'none';
+                           else
+                              e.style.display = 'block';
+                        }
+                    //-->
+                    </script>
+
+                    <a class="navButton" href="javascript:void(0)" onclick="toggle_visibility('popup-stats')">STATS</a>
                     &nbsp;&nbsp;
-                    <a class="navButton" href="/schedule.html">SCHEDULE</a>
+                    <a class="navButton" href="javascript:void(0)" onclick="toggle_visibility('popup-schedule')">SCHEDULE</a>
                     &nbsp;&nbsp;
-                    <a class="navButton" href="/media/">MEDIA</a>
+                    <a class="navButton" href="javascript:void(0)" onclick="toggle_visibility('popup-media')">MEDIA</a>
                     &nbsp;&nbsp;
-                    <a class="navButton" href="/rules/">RULES</a>
+                    <a class="navButton" href="javascript:void(0)" onclick="toggle_visibility('popup-rules')">RULES</a>
                 </div>
             </div>
         </nav>
+        
         <!--LEFT CONTENT -->
         <div class="left">
             <br>
@@ -89,6 +103,7 @@
                 </div>
             </div>
         </div>
+        
         <!--RIGHT CONTENT-->
         <div class="right">
             <h3>Lastest Scores</h3>
@@ -119,5 +134,118 @@
             </div>
             <p></p>
         </div>
+        
+        <!--SCHEDULE POPUP-->
+        <div id="popup-schedule" class="popup-position">
+            <div id="popup-wrapper">
+                <div id="popup-container">
+                         <div class="scrollbar">
+                            <a href="javascript:void(0)" onclick="toggle_visibility('popup-schedule');"><img src="resources/img//close.png" align=right height=30px width=30px></a>
+                            <div class="content">
+                                    <div>
+                                        <b><u>SCHEDULE:</u></b>
+                                    </div>    
+                                    <p></p>    
+                                    
+                                    <div class="time"><b>GAME 1:</b> April 2nd 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">DARK @ LIGHT</div>
+                                    <br>
+                                    <div class="time"><b>GAME 2:</b> April 9th 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">LIGHT @ DARK</div>
+                                    <br>
+                                    <div class="time"><b>GAME 3:</b> April 16th 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">DARK @ LIGHT</div>
+                                    <br>
+                                    <div class="time"><b>GAME 4:</b> April 23rd 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">LIGHT @ DARK</div>
+                                    <br>
+                                    <div class="time"><b>GAME 5:</b> April 30th 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">DARK @ LIGHT</div>
+                                    <br>
+                                    <div class="time"><b>GAME 6:</b> May 7th 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">LIGHT @ DARK</div>
+                                    <br>
+                                    <div class="time"><b>GAME 7:</b> May 14th 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">DARK @ LIGHT</div>
+                                    <br>
+                                    <div class="time"><b>GAME 8:</b> May 21st 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">LIGHT @ DARK</div>
+                                    <br>
+                                    <div class="time"><b>GAME 9:</b> May 28th 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">DARK @ LIGHT</div>
+                                    <br>
+                                    <div class="time"><b>GAME 10:</b> June 4th 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">LIGHT @ DARK</div>
+                                    <br>
+                                    <div class="time"><b>PLAYOFFS 1:</b> June 11th 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">DARK @ LIGHT</div>
+                                    <br>
+                                    <div class="time"><b>PLAYOFFS 2:</b> June 18th 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">LIGHT @ DARK</div>
+                                    <br>
+                                    <div class="time"><b>PLAYOFFS 3:</b> June 25th 9:45 - 10:45pm | Sunset Ice Rink</div>
+                                    <div class="home">DARK @ LIGHT</div>
+                                    <br>
+                            </div>
+                        </div>
+                </div>       
+            </div>
+        </div>
+        
+        <!--RULES POPUP-->
+        <div id="popup-rules" class="popup-position">
+            <div id="popup-wrapper">
+                <div id="popup-container">
+                    <div class="scrollbar">
+                    <a href="javascript:void(0)" onclick="toggle_visibility('popup-rules');"><img src="resources/img//close.png" align=right height=30px width=30px></a>
+                        <div class="content">
+                            <div>
+                                <b><u>RULES:</u></b>
+                            </div>    
+                            <p></p>    
+                        </div>    
+                            
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <!--STATS POPUP-->
+        <div id="popup-stats" class="popup-position">
+            <div id="popup-wrapper">
+                <div id="popup-container">
+                    <div class="scrollbar">
+                    <a href="javascript:void(0)" onclick="toggle_visibility('popup-stats');"><img src="resources/img//close.png" align=right height=30px width=30px></a>
+                        <div class="content">
+                            <div>
+                                <b><u>STATS:</u></b>
+                            </div>    
+                            <p></p>    
+                        </div>    
+                            
+                    </div>
+                </div>
+            </div>    
+        </div>        
+    
+        <!--MEDIA POPUP-->
+        <div id="popup-media" class="popup-position">
+            <div id="popup-wrapper">
+                <div id="popup-container">
+                    <div class="scrollbar">
+                    <a href="javascript:void(0)" onclick="toggle_visibility('popup-media');"><img src="resources/img//close.png" align=right height=30px width=30px></a>
+                        <div class="content">
+                            <div>
+                                <b><u>MEDIA:</u></b>
+                            </div>    
+                            <p></p>    
+                        </div>    
+                            
+                    </div>
+                </div>
+            </div>    
+        </div>            
+    
+    
     </body>
 </html>

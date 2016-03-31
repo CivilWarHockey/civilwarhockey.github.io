@@ -250,13 +250,9 @@ ul {
  *  STYLE 1
  */
 .scrollbar	{
-width:150px;
-height:300px;
-background-color:lightgray;
 margin-top:40px;
 margin-left:40px;
 overflow-y:scroll;
-float:left;
 }
 
 #style-1::-webkit-scrollbar-track

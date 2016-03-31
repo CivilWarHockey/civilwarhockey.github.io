@@ -259,6 +259,7 @@ ul {
 #style-1::-webkit-scrollbar
 {
 	width: 12px;
+	height: 400px;
 	background-color: rgba(80,86,92,0.9);
 }
 #style-1::-webkit-scrollbar-thumb

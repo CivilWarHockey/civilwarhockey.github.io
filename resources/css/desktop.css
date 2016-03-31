@@ -139,7 +139,7 @@ ul {
     height: 80%;
 }
 
-.topPlayerDiv {
+.playerDark {
     background-color: 50565c;
     color: white;
     font-size: 13;
@@ -148,7 +148,7 @@ ul {
     border-color: rgba(85,85,85,0.6);
 }
 
-.playerDiv {
+.playerLight {
     background-color: dddddd;
     color: black;
     font-size: 13;
@@ -184,7 +184,7 @@ ul {
     font-size: 16px;
 }
 
-.jDawgs {
+.xDark {
     float: left;
     color: white;
     padding-left: 20px;
@@ -195,7 +195,7 @@ ul {
     width: 35%;
 }
 
-.jTown {
+.xLight {
     float: right;
     color: white;
     padding-left: 20px;

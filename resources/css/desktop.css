@@ -213,6 +213,7 @@ ul {
     color: 50565c;
     font-size: 15px;
     padding-left: 1%;
+    border-radius: 4px;
 }
 
 .time {
@@ -222,6 +223,7 @@ ul {
     color: dddddd;
     font-size: 20px;
     padding-left: 1%;
+    border-radius: 4px;
 }
 .popup-position {
     display: none;

@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="./resources/css/desktop.css">
     </head>
     <body>
+        
         <!--HEADER BAR CONTENT-->
         <nav>
             <div class="navDiv">
@@ -23,16 +24,17 @@
                     //-->
                     </script>
 
-                    <a class="navButton" href="/stats/">STATS</a>
+                    <a class="navButton" href="javascript:void(0)" onclick="toggle_visibility('popup-stats')">STATS</a>
                     &nbsp;&nbsp;
                     <a class="navButton" href="javascript:void(0)" onclick="toggle_visibility('popup-schedule')">SCHEDULE</a>
                     &nbsp;&nbsp;
-                    <a class="navButton" href="/media/">MEDIA</a>
+                    <a class="navButton" href="javascript:void(0)" onclick="toggle_visibility('popup-media')">MEDIA</a>
                     &nbsp;&nbsp;
                     <a class="navButton" href="javascript:void(0)" onclick="toggle_visibility('popup-rules')">RULES</a>
                 </div>
             </div>
         </nav>
+        
         <!--LEFT CONTENT -->
         <div class="left">
             <br>
@@ -101,6 +103,7 @@
                 </div>
             </div>
         </div>
+        
         <!--RIGHT CONTENT-->
         <div class="right">
             <h3>Lastest Scores</h3>
@@ -206,6 +209,43 @@
                 </div>
             </div>    
         </div>
-        
+
+        <!--STATS POPUP-->
+        <div id="popup-stats" class="popup-position">
+            <div id="popup-wrapper">
+                <div id="popup-container">
+                    <div class="scrollbar">
+                    <a href="javascript:void(0)" onclick="toggle_visibility('popup-stats');"><img src="resources/img//close.png" align=right height=30px width=30px></a>
+                        <div class="content">
+                            <div>
+                                <b><u>STATS:</u></b>
+                            </div>    
+                            <p></p>    
+                        </div>    
+                            
+                    </div>
+                </div>
+            </div>    
+        </div>        
+    
+        <!--MEDIA POPUP-->
+        <div id="popup-media" class="popup-position">
+            <div id="popup-wrapper">
+                <div id="popup-container">
+                    <div class="scrollbar">
+                    <a href="javascript:void(0)" onclick="toggle_visibility('popup-media');"><img src="resources/img//close.png" align=right height=30px width=30px></a>
+                        <div class="content">
+                            <div>
+                                <b><u>MEDIA:</u></b>
+                            </div>    
+                            <p></p>    
+                        </div>    
+                            
+                    </div>
+                </div>
+            </div>    
+        </div>            
+    
+    
     </body>
 </html>

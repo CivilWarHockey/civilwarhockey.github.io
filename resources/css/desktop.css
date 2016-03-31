@@ -221,7 +221,7 @@ ul {
     color: dddddd;
     font-size: 25px;
     padding-left: 1%;
-
+}
 .popup-position {
     display: none;
     position: fixed;
@@ -231,6 +231,7 @@ ul {
     width: 100%;
     height: 100%;
 }
+
 #popup-wrapper {
     width: 500px;
     margin: 70px auto;

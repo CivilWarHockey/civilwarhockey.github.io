@@ -199,7 +199,7 @@ ul {
 }
 
 .home {
-    width: 70%;
+    width: 75%;
     position: inline;
     background-color: rgba(255,255,255,0.9);
     color: 50565c;
@@ -208,7 +208,7 @@ ul {
 }
 
 .time {
-    width: 70%;
+    width: 75%;
     position: inline;
     background-color: rgba(54,96,146,0.9);
     color: dddddd;

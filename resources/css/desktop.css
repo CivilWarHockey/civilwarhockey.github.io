@@ -144,12 +144,18 @@ ul {
     background-color: 50565c;
     color: white;
     font-size: 13;
+    border: 1.3px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0);
 }
 
 .playerDiv {
     background-color: dddddd;
     color: black;
     font-size: 13;
+    border: 1.3px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0);    
 }
 
 #clockDiv {

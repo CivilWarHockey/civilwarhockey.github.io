@@ -284,3 +284,8 @@ overflow-y:scroll;
     color: white;
     border-radius: 10px;
 }
+#stats {
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+    border-radius: 10px;
+}

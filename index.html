@@ -1,139 +1,140 @@
 <html>
-    <title> Civil War Hockey</title>
-    <head>
-        <link rel="stylesheet" type="text/css" href="./resources/css/desktop.css">
-    </head>
-    <body id="home">
+<title> Civil War Hockey</title>
 
-        <!--HEADER BAR CONTENT-->
-        <nav>
-            <div class="navDiv">
-                <div class="homeButton">
-                    <a href="index.html"><img src="resources/img/Logo5.png" width=250px height=95px></a>
-                </div>
-                <div class="navButtons">
-                    <script type="text/javascript">
+<head>
+    <link rel="stylesheet" type="text/css" href="./resources/css/desktop.css">
+</head>
+
+<body id="home">
+
+    <!--HEADER BAR CONTENT-->
+    <nav>
+        <div class="navDiv">
+            <div class="homeButton">
+                <a href="index.html"><img src="resources/img/Logo5.png" width=250px height=95px>
+                </a>
+            </div>
+            <div class="navButtons">
+                <script type="text/javascript">
                     <!--
-                        function toggle_visibility(id) {
-                           var e = document.getElementById(id);
-                           if(e.style.display == 'block')
-                              e.style.display = 'none';
-                           else
-                              e.style.display = 'block';
+                    function toggle_visibility(id) {
+                            var e = document.getElementById(id);
+                            if (e.style.display == 'block')
+                                e.style.display = 'none';
+                            else
+                                e.style.display = 'block';
                         }
-                    //-->
-                    </script>
+                        //-->
+                </script>
 
-                    <a class="navButton" id="homeNavButton" href="index.html">HOME</a>
-                    &nbsp;&nbsp;
-                    <a class="navButton" id="statsNavButton" href="stats.html">STATS</a>
-                    &nbsp;&nbsp;
-                    <a class="navButton" id="scheduleNavButton" href="schedule.html">SCHEDULE</a>
-                    &nbsp;&nbsp;
-                    <a class="navButton" id="rulesNavButton" href="rules.html">RULES</a>
-                    &nbsp;&nbsp;
-                </div>
-            </div>
-        </nav>
-
-        <!--LEFT CONTENT -->
-        <div class="left">
-            <br>
-            <center><b>NEXT GAME DAY IN</b></center>
-            <br>
-            <div id="clockDiv">
-                <div>
-                    <span class="days"></span>
-                    <div class="smalltext">Days</div>
-                </div>
-                <div>
-                    <span class="hours"></span>
-                    <div class="smalltext">Hours</div>
-                </div>
-                <div>
-                    <span class="minutes"></span>
-                    <div class="smalltext">Minutes</div>
-                </div>
-                <div>
-                    <span class="seconds"></span>
-                    <div class="smalltext">Seconds</div>
-                </div>
-            </div>
-            <script src="./resources/js/clock.js" type="text/javascript"></script>
-            <br>
-            <b>Latest News</b>
-            <br> Draft Results: March 19th
-            <br>
-            <br>
-            <div text-align="center">
-                <div class="xDark">
-                    <u><b>DARK</b></u>
-                    <br>
-                    <li>Chad Choy (C)</li>
-                    <li>Lisa Miao (C)</li>
-                    <li>Stefanie Ng (C)</li>
-                    <li>Florian Jahqys</li>
-                    <li>Jack Chiang</li>
-                    <li>Jan Pradas</li>
-                    <li>Jason Chan</li>
-                    <li>Jason Mayede</li>
-                    <li>Jeff So</li>
-                    <li>Justin Mang</li>
-                    <li>Kevin Cho</li>
-                    <li>Wes Wong</li>
-                    <li>Will Tran</li>
-                    <li>Ryan Jung (G)</li>
-                </div>
-                <div class="xLight">
-                    <u><b>LIGHT</b></u>
-                    <br>
-                    <li>Jacquie Lum (C)</li>
-                    <li>Jessica Nguyen (C)</li>
-                    <li>Joanna Huang (C)</li>
-                    <li>Andrew Vince</li>
-                    <li>Brandon Mak</li>
-                    <li>Dion Wong</li>
-                    <li>George Chan</li>
-                    <li>Jason Fice</li>
-                    <li>Kevin Shen</li>
-                    <li>Marco Ng</li>
-                    <li>Phil Tong</li>
-                    <li>Rob Vince</li>
-                    <li>Steven Le</li>
-                    <li>Julian Fok (G)</li>
-                </div>
+                <a class="navButton" id="homeNavButton" href="index.html">HOME</a> &nbsp;&nbsp;
+                <a class="navButton" id="statsNavButton" href="stats.html">STATS</a> &nbsp;&nbsp;
+                <a class="navButton" id="scheduleNavButton" href="schedule.html">SCHEDULE</a> &nbsp;&nbsp;
+                <a class="navButton" id="rulesNavButton" href="rules.html">RULES</a> &nbsp;&nbsp;
             </div>
         </div>
+    </nav>
 
-        <!--RIGHT CONTENT-->
-        <div class="right">
-            <h3>Lastest Scores</h3>
-            <div class="scoreboard">
-            <p><span style="color:dddddd;font-weight:bold;font-size:15">DARK </span>
-            4&nbsp;&nbsp;-&nbsp;&nbsp;4
-            <span style="color:dddddd;font-weight:bold;font-size:15">LIGHT</span></p>
+    <!--LEFT CONTENT -->
+    <div class="left">
+        <br>
+        <center><b>NEXT GAME DAY IN</b>
+        </center>
+        <br>
+        <div id="clockDiv">
+            <div>
+                <span class="days"></span>
+                <div class="smalltext">Days</div>
             </div>
-            <br>
-            <h3>Top Players</h3>
-            <p>
+            <div>
+                <span class="hours"></span>
+                <div class="smalltext">Hours</div>
+            </div>
+            <div>
+                <span class="minutes"></span>
+                <div class="smalltext">Minutes</div>
+            </div>
+            <div>
+                <span class="seconds"></span>
+                <div class="smalltext">Seconds</div>
+            </div>
+        </div>
+        <script src="./resources/js/clock.js" type="text/javascript"></script>
+        <br>
+        <b>Latest News</b>
+        <br> Draft Results: March 19th
+        <br>
+        <br>
+        <div text-align="center">
+            <div class="xDark">
+                <u><b>DARK</b></u>
+                <br>
+                <li>Chad Choy (C)</li>
+                <li>Lisa Miao (C)</li>
+                <li>Stefanie Ng (C)</li>
+                <li>Florian Jahqys</li>
+                <li>Jack Chiang</li>
+                <li>Jan Pradas</li>
+                <li>Jason Chan</li>
+                <li>Jason Mayede</li>
+                <li>Jeff So</li>
+                <li>Justin Mang</li>
+                <li>Kevin Cho</li>
+                <li>Wes Wong</li>
+                <li>Will Tran</li>
+                <li>Ryan Jung (G)</li>
+            </div>
+            <div class="xLight">
+                <u><b>LIGHT</b></u>
+                <br>
+                <li>Jacquie Lum (C)</li>
+                <li>Jessica Nguyen (C)</li>
+                <li>Joanna Huang (C)</li>
+                <li>Andrew Vince</li>
+                <li>Brandon Mak</li>
+                <li>Dion Wong</li>
+                <li>George Chan</li>
+                <li>Jason Fice</li>
+                <li>Kevin Shen</li>
+                <li>Marco Ng</li>
+                <li>Phil Tong</li>
+                <li>Rob Vince</li>
+                <li>Steven Le</li>
+                <li>Julian Fok (G)</li>
+            </div>
+        </div>
+    </div>
+
+    <!--RIGHT CONTENT-->
+    <div class="right">
+        <h3>Lastest Scores</h3>
+        <div class="scoreboard">
+            <p><span style="color:dddddd;font-weight:bold;font-size:15">DARK </span> 4&nbsp;&nbsp;-&nbsp;&nbsp;4
+                <span style="color:dddddd;font-weight:bold;font-size:15">LIGHT</span>
+            </p>
+        </div>
+        <br>
+        <h3>Top Players</h3>
+        <p>
             <div class="chart">
-            <div class="playerDark" style="width: 100%;">Jack Chiang 3</div>
-            <div class="playerDark" style="width: 100%;">Jeff So 3</div>
-            <div class="playerDark" style="width: 100%;">Jason Mayede 3</div>
-            <div class="playerLight" style="width: 80%;">Kevin Shen 2</div>
-            <div class="playerLight" style="width: 80%;">Laith Soaadi 2</div>
-            <div class="playerDark" style="width: 60%;">Wes Wong 1</div>
-            <div class="playerDark" style="width: 60%;">Kevin Cho 1</div>
-            <div class="playerDark" style="width: 60%;">Jan Pradas 1</div>
+                <div class="playerDark" style="width: 100%;">Jack Chiang 3</div>
+                <div class="playerDark" style="width: 100%;">Jeff So 3</div>
+                <div class="playerDark" style="width: 100%;">Jason Mayede 3</div>
+                <div class="playerLight" style="width: 80%;">Kevin Shen 2</div>
+                <div class="playerLight" style="width: 80%;">Laith Soaadi 2</div>
+                <div class="playerDark" style="width: 60%;">Wes Wong 1</div>
+                <div class="playerDark" style="width: 60%;">Kevin Cho 1</div>
+                <div class="playerDark" style="width: 60%;">Jan Pradas 1</div>
             </div>
             <br>
             <h3>Standings</h3>
             <p>
-            <div class="chart">
-                <div class="playerDark" style="width: 100%;">DARK (0-0-1)</div>
-                <div class="playerLight" style="width: 100%;">LIGHT (0-0-1)</div>
-            </div>
-            <p></p>
-        </div>
-    </body>
+                <div class="chart">
+                    <div class="playerDark" style="width: 100%;">DARK (0-0-1)</div>
+                    <div class="playerLight" style="width: 100%;">LIGHT (0-0-1)</div>
+                </div>
+                <p></p>
+    </div>
+</body>
+
 </html>

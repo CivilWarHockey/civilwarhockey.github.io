@@ -1,3 +1,98 @@
+body {
+    backgroundopacity: .5;
+    /*background: url(../img/Background3.png);*/
+    background-color: dddddd;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 80%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: arial;
+}
+
+img {
+    opacity: .85;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    background-color: 50565c;
+}
+
+ul {
+    font-size: 12px;
+    color: #000;
+}
+
+li {
+    font-size: 16px;
+    list-style-type: none;
+}
+
+body#home a#homeNavButton,
+body#stats a#statsNavButton,
+body#schedule a#scheduleNavButton,
+body#media a#mediaNavButton,
+body#rules a#rulesNavButton {
+    color: #fff;
+    background: #930;
+}
+
+#scheduleDiv {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#statsTable {
+    margin: 0 auto;
+}
+
+#statsHeader {
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    border-radius: 10px;
+}
+
+#statsRow {
+    background-color: rgba(255,255,255,0.8);
+    color: #000;
+    border-radius: 10px;
+}
+
+#clockDiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockDiv > div {
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+    background-color: rgba(255,255,255,.3);
+}
+
+#clockDiv div > span {
+    padding: 15px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
 .navButton {
     display: inline-block;
     margin: 0;
@@ -12,11 +107,6 @@
     border: 1.3px;
     border-style: solid;
     border-color: #fff;
-}
-
-body#home a#homeNavButton,body#stats a#statsNavButton,body#schedule a#scheduleNavButton,body#rules a#rulesNavButton {
-    color: #fff;
-    background: #930;
 }
 
 .navButton:hover {
@@ -45,49 +135,6 @@ body#home a#homeNavButton,body#stats a#statsNavButton,body#schedule a#scheduleNa
     height: 120px;
     margin: 0 auto;
     position: relative;
-}
-
-p {
-    font-size: 30px;
-    text-align: center;
-    color: #fff;
-}
-
-h3 {
-    font-family: arial;
-}
-
-nav {
-    position: relative;
-    width: 100%;
-    background-color: 50565c;
-}
-
-img {
-    opacity: .85;
-}
-
-body {
-    backgroundopacity: .5;
-    /*background: url(../img/Background3.png);*/
-    background-color: dddddd;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 80%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    font-size: 16px;
-    list-style-type: none;
-}
-
-ul {
-    font-size: 12px;
-    color: #000;
 }
 
 .chart {
@@ -155,28 +202,6 @@ ul {
     border-color: rgba(85,85,85,0.6);
 }
 
-#clockDiv {
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 30px;
-}
-
-#clockDiv > div {
-    padding: 10px;
-    border-radius: 3px;
-    display: inline-block;
-    background-color: rgba(255,255,255,.3);
-}
-
-#clockDiv div > span {
-    padding: 15px;
-    border-radius: 3px;
-    display: inline-block;
-}
-
 .smalltext {
     padding-top: 5px;
     font-size: 16px;
@@ -225,7 +250,6 @@ ul {
 }
 
 .card {
-    display: none;
     position: absolute;
     padding: 1.5rem;
     box-shadow: 0 1px 2px #aaa;
@@ -237,25 +261,4 @@ ul {
     height: 480px;
     top: 50%;
     left: 50%;
-}
-
-#scheduleDiv {
-    width: 80%;
-    margin: 0 auto;
-}
-
-#stats-table {
-    margin: 0 auto;
-}
-
-#stats-header {
-    background-color: rgba(0,0,0,0.5);
-    color: #fff;
-    border-radius: 10px;
-}
-
-#stats-row {
-    background-color: rgba(255,255,255,0.8);
-    color: #000;
-    border-radius: 10px;
 }

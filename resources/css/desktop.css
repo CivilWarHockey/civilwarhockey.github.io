@@ -167,7 +167,7 @@ body#rules a#rulesNavButton {
     font-family: "arial";
     font-size: 18px;
     opacity: 20%;
-    overflow: scroll;
+    overflow: auto;
     /*left: 10%;*/
 }
 

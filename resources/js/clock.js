@@ -38,4 +38,4 @@ function initializeClock(id, endtime) {
     var timeinterval = setInterval(updateClock, 1000);
 }
 
-initializeClock('clockDiv', 'May 14 2016 19:00');
+initializeClock('clockDiv', 'May 14 2016 21:45');
